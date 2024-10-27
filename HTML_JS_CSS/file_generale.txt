@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="uft-8">
+		<title>Sport</title>
+		<link rel="stylesheet" type="text/css" href="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1.css">
+		<script src="processing.min.js"></script>
+	</head>
+	<body class=bg background="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1Sport.jpeg">
+		<h1 id=titoloHome>I miei sport preferiti</h1>
+		<h2 class="red small">Ecco alcuni dei miei sport preferiti:</h2>
+		<h4>Calcio</h4>
+		<a target="_blank" href="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1Pagina1.html"><img src="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1Calcio.jpg" width="950" height="600"></a>
+		<h4>Nuoto</h4>
+		<a target="_blank" href="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1Pagina2.html"><img src="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1Nuoto.jpeg" width="950" height="600"></a>
+		<p align="center"> 
+			<canvas id="mycanvas1"></canvas>
+			<canvas id="mycanvas2"></canvas>
+			<canvas id="mycanvas3"></canvas>
+		</p>
+	</body>
+	<script type="text/javascript" src="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1.js"></script>
+</html>
+
+HTML2
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calcio</title>
+		<link rel="stylesheet" type="text/css" href="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1.css">
+		<script src="processing.min.js"></script>
+	</head>
+	<body class=bg background="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1Calcio.jpg">
+		<h1 class=red>Il Calcio</h1>
+		<h2>Alcuni tra i calciatori più celebri al mondo includono:</h2>
+		<ul>
+			<li>Cristiano Ronaldo</li>
+            <li>Lionel Messi</li>
+            <li>Diego Armando Maradona</li>
+		</ul>
+		<h3>Ecco quanti titoli mondiali hanno vinto ciascuno e con quale nazionale</h3>
+		<table>
+			<caption>Titoli mondiali conquistati</caption>
+			<thead>
+				<tr>
+					<th> Nome Calciatore </th>
+					<th> Titoli Vinti</th>
+					<th> Nazionale</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td> Cristiano Ronaldo </td>
+					<td> 0 </td>
+					<td> Portogallo </td>
+				</tr>
+				<tr>
+					<td> Lionel Messi</td>
+					<td> 0 </td>
+					<td> Argentina </td>
+				</tr>
+				<tr>
+					<td> Diego Armando Maradona</td>
+					<td> 1 </td>
+					<td> Argentina</td>
+				</tr>
+			</tbody>
+		</table>
+		<a href="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1HOME.html">Ritorna alla homepage</a>
+        <p align="center"> 
+			<canvas id="mycanvas1"></canvas>
+			<canvas id="mycanvas2"></canvas>
+		</p>
+	</body>
+	 <script type="text/javascript" src="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1.js"></script>
+</html>
+
+HTML3
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nuoto</title>
+		<link rel="stylesheet" type="text/css" href="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1.css">
+		<script src="processing.min.js"></script>
+	</head>
+	<body class=bg background="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1Nuoto.jpeg">
+		<h1 class=red >Il Nuoto</h1>
+		<h2>Alcuni tra i nuotatori più celebri al mondo includono:</h2>
+		<ul>
+			<li>Federica Pellegrini</li>
+            <li>Micheal Phelps</li>
+            <li>Gregorio Paltrineri</li>
+		</ul>
+		<h3>Ecco quante medaglie d'oro hanno vinto ciascuno e con quale nazionale</h3>
+		<table>
+			<caption>Medaglie d'oro conquistate</caption>
+			<thead>
+				<tr>
+					<th> Nome Nuotatore </th>
+					<th> Medaglie D'oro</th>
+					<th> Nazionale</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td> Federica Pellegrini </td>
+					<td> 1 </td>
+					<td> Italia </td>
+				</tr>
+				<tr>
+					<td> Micheal Phelps</td>
+					<td> 23 </td>
+					<td> USA </td>
+				</tr>
+				<tr>
+					<td> Gregorio Paltrineri</td>
+					<td> 1 </td>
+					<td> Italia</td>
+				</tr>
+			</tbody>
+		</table>
+		<a href="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1HOME.html">Ritorna alla homepage</a>
+        <p align="center"> 
+			<canvas id="mycanvas1"></canvas>
+			<canvas id="mycanvas3"></canvas>
+		</p>
+	</body>
+	 <script type="text/javascript" src="5LSA2CorradoFrancescoEsercitazioneVerifica15LSA1.js"></script>
+</html>
+
+CSS
+.bg{
+	background-size:cover;
+}
+caption{
+	color: green;
+	font-size: 20px;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+a{
+	color: yellow;
+	text-decoration: none;
+}
+#titoloHome{
+	color: orange;
+	font-size: 40px;
+	font-style: fantasy;
+}
+th{
+	color: red;
+}
+td, tr{
+	font-family: serif;
+	font-size: 20px;
+	color: yellow;
+	border: 1px sold #eee;
+	background-color: black;
+}
+.red{
+	color: red;
+	font-style: arabic;
+}
+.small{
+	font-size: 20px;
+}
+
+JS
+var sketchProc1 = function(processingInstance) {
+    with (processingInstance) {
+		size(800, 400); 
+		frameRate(30);
+		draw= function() {
+			background(0, 0, 139);
+			text("Francesco.Corrado", mouseX, mouseY);
+	};
+	}
+};
+var X=0;
+var sketchProc2 = function(processingInstance) {
+    with (processingInstance) {
+		size(400, 400); 
+		frameRate(30);
+		draw= function() {
+			background(173, 216, 230);
+			fill(124, 252, 0);
+			rect(0, 300, 400, 400);
+			fill(0, 0, 0);
+			rect(300, 300, 10, -90);
+			fill(255, 255, 255);
+			ellipse(X, 250, 15, 15);
+			X=X+4;
+			if(X==300){
+				text("GOOOOAL",200, 100);
+				X=X-300;
+			}
+	};
+}
+};
+var sketchProc3 = function(processingInstance) {
+    with (processingInstance) {
+		size(400, 400); 
+		frameRate(30);
+		draw= function() {
+			background(173, 216, 230);
+			fill(240, 248, 255);
+			rect(0, 300, 400, 400);
+			
+		};
+	}
+};
+
+
+var canvas1=document.getElementById("mycanvas1");
+if(canvas1!==null){
+    var processingInstance = new Processing(canvas1, sketchProc1);
+}
+var canvas2=document.getElementById("mycanvas2");
+if(canvas2!==null){
+    var processingInstance =new Processing(canvas2, sketchProc2);
+}
+var canvas3=document.getElementById("mycanvas3");
+if(canvas3!==null){
+    var processingInstance =new Processing(canvas3, sketchProc3);
+}
+
+

@@ -1,0 +1,33 @@
+#firstHome{
+	color: Orange;
+	font-family: sans-serif;
+}
+#secondHome{
+	color: white;
+	font-family: fantasy;
+}
+h2{
+	color: red;
+}
+td, tr{
+	font-family: serif;
+	font-size: 20px;
+	color: yellow;
+	border: 1px sold #eee;
+	background-color: black;
+}
+caption{
+	color: yellow;
+}
+a{
+	cursor: default; 
+	color: yellow; 
+	text-decoration:none; 
+}
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border:1px solid #ddd; 
+	padding: 8px;
+}
